@@ -21,3 +21,5 @@ Key Highlights:
 This task focuses on UI/UX principles for digital learning and displays frontend structuring skills.
 
 ✅ Task Completed as per the CodTech Internship Guidelines.
+*output*
+<img width="1919" height="915" alt="Image" src="https://github.com/user-attachments/assets/52e4f620-12e4-455a-887b-a736f2e9a81f" />
