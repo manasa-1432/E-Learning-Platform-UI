@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+main {
+  padding: 30px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.courses {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.course-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.course-card h4 {
+  margin-top: 0;
+}
+
+.course-card a {
+  display: inline-block;
+  margin-top: 10px;
+  background: #3498db;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.video-section iframe {
+  width: 100%;
+  max-width: 700px;
+  height: 400px;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.progress-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.progress-bar {
+  background: #ddd;
+  border-radius: 20px;
+  width: 80%;
+  height: 20px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.progress-fill {
+  background: #2ecc71;
+  height: 100%;
+  width: 0%;
+  transition: width 0.5s;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+  margin-top: 40px;
+}
